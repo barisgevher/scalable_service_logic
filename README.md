@@ -39,13 +39,13 @@ Projenin doğru şekilde çalışabilmesi için sisteminizde aşağıdaki yazıl
     Öncelikle projenin kodlarını yerel makinenize klonlayın:
 
     ```bash
-    git clone https://github.com/barisgevher/kayra-export-case2.git
-    cd kayra-export-case2
+    git clone https://github.com/barisgevher//scalable_service_logic.git
+    cd scalable_service_logic
     # Eğer API projesi ana dizinde değilse, docker-compose.yml'nin bulunduğu dizine gidin.
     # Örneğin: cd ProductManagement
     ```
 
-    _Not: Yukarıdaki `cd` komutu, `docker-compose.yml` dosyanızın bulunduğu dizine gitmenizi sağlar. Eğer `kayra-export-case2` içinde başka bir `ProductManagement` klasörü varsa, o klasöre girmeniz gerekebilir._
+    _Not: Yukarıdaki `cd` komutu, `docker-compose.yml` dosyanızın bulunduğu dizine gitmenizi sağlar. Eğer `scalable_service_logic` içinde başka bir `ProductManagement` klasörü varsa, o klasöre girmeniz gerekebilir._
 
 2.  **`.env` Dosyasını Oluşturun:**
     `docker-compose.yml` dosyasının bulunduğu dizinde `.env` adında yeni bir dosya oluşturun ve içine aşağıdaki satırları ekleyin. Bu değişkenleri kendi istediğiniz değerlerle güncelleyin:
